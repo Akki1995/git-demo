@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include akshay_app *.css
+recursive-include akshay_app *.csv
+recursive-include akshay_app *.html
+recursive-include akshay_app *.ico
+recursive-include akshay_app *.js
+recursive-include akshay_app *.json
+recursive-include akshay_app *.md
+recursive-include akshay_app *.png
+recursive-include akshay_app *.py
+recursive-include akshay_app *.svg
+recursive-include akshay_app *.txt
+recursive-exclude akshay_app *.pyc
